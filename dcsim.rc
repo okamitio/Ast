@@ -16,8 +16,8 @@ BEGIN
 	END
 	POPUP "編集(&E)"
 	BEGIN
-		MENUITEM	"範囲指定\tCrtl+R"	IDM_RANGE
 		MENUITEM	"貼付\tCtrl+V"		IDM_PASTE
+		MENUITEM	"範囲指定\tCrtl+R"	IDM_RANGE
 		MENUITEM	"切取\tCtrl+X"		IDM_CUT	,GRAYED
 		MENUITEM	"コピー\tCtrl+C"	IDM_COPY,GRAYED
 		MENUITEM	"範囲を削除\tDel"	IDM_DEL	,GRAYED

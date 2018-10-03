@@ -581,13 +581,11 @@ LRESULT CALLBACK WindowProc(HWND hwnd,UINT uMsg,WPARAM wParam,LPARAM lParam)
 		case IDM_BUFFER:
 			Place::NewGateIn = 1;
 			Place::NewGateOperationisNOT = false;
-			Place::NewGateOperationisOR = false;
 			state = placegate;
 			break;
 		case IDM_NOT:
 			Place::NewGateIn = 1;
 			Place::NewGateOperationisNOT = true;
-			Place::NewGateOperationisOR = false;
 			state=placegate;
 			break;
 		case IDM_AND:
@@ -657,7 +655,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd,UINT uMsg,WPARAM wParam,LPARAM lParam)
 			state=note;
 			break;
 		case IDM_VERSION:
-			MessageBox(hwnd,"論理回路シミュレータAst Ver0.85\n岡　道雄\nhttp://hp.vector.co.jp/authors/VA060227/\nhttp://www.geocities.jp/oka_mitio/\noka_mitio@yahoo.co.jp","Ast",MB_OK);
+			MessageBox(hwnd,"論理回路シミュレータAst Ver0.87\n岡　道雄\nhttp://hp.vector.co.jp/authors/VA060227/\nhttp://www.geocities.jp/oka_mitio/\noka_mitio@yahoo.co.jp","Ast",MB_OK);
 			state=scroll;
 			break;
 		}

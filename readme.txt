@@ -135,6 +135,15 @@ Ver0.84
 2018/04/30
 Ver0.85
 
+2018/09/30
+モジュールの変更
+Ver0.86
+
+2018/10/02
+論理ゲート選択時の縮退の表現
+編集メニューの並び替え
+Ver0.87
+
 岡　道雄
 http://hp.vector.co.jp/authors/VA060227/
 http://www.geocities.jp/oka_mitio/

@@ -815,7 +815,7 @@ bool LoadModule()
 		}
 	}
 
-	Place::NewModule.Set_margin(margin[3] +1, margin[0] +1, margin[1] +1, margin[2] +1);
+	Place::NewModule.Set_margin(margin[3], margin[0], margin[1], margin[2]);
 
 	return true;
 }
